@@ -1,0 +1,48 @@
+
+NBinom Regression Results
+=======================================================================================
+                                                   Dependent variable:                 
+                                   ----------------------------------------------------
+                                                       round_spend                     
+                                         (1)               (2)               (3)       
+---------------------------------------------------------------------------------------
+log(history)                       -0.061* (0.037)                                     
+recency                                                                 0.004 (0.010)  
+history                                             -0.0001 (0.0003)  -0.00005 (0.0003)
+zipcodeSurburban                    0.154* (0.093)   0.160* (0.094)    0.157* (0.094)  
+zipcodeUrban                        0.080 (0.094)     0.121 (0.094)     0.118 (0.094)  
+channelPhone                        0.017 (0.104)                                      
+channelWeb                          0.020 (0.103)                                      
+campaignMens E-Mail                 0.007 (0.088)    -0.093 (0.395)    -0.095 (0.395)  
+campaignWomens E-Mail               0.101 (0.094)     0.502 (0.427)     0.491 (0.427)  
+newcustomer1                                         -0.253 (0.183)    -0.248 (0.183)  
+phone1                                               -0.333 (0.230)    -0.325 (0.230)  
+web1                                                 -0.309 (0.227)    -0.302 (0.228)  
+mens1                               0.194* (0.103)   0.503** (0.250)   0.492** (0.251) 
+womens1                             -0.072 (0.104)    0.218 (0.245)     0.208 (0.245)  
+campaignMens E-Mail:newcustomer1                      0.331 (0.211)                    
+campaignWomens E-Mail:newcustomer1                    0.288 (0.222)                    
+newcustomer1:campaignMens E-Mail                                        0.321 (0.212)  
+newcustomer1:campaignWomens E-Mail                                      0.288 (0.222)  
+history:campaignMens E-Mail                          0.0001 (0.0003)   0.0001 (0.0003) 
+history:campaignWomens E-Mail                        0.0001 (0.0004)   0.0001 (0.0004) 
+campaignMens E-Mail:phone1                            0.197 (0.274)                    
+campaignWomens E-Mail:phone1                          0.392 (0.286)                    
+campaignMens E-Mail:web1                              0.237 (0.273)                    
+campaignWomens E-Mail:web1                            0.319 (0.286)                    
+phone1:campaignMens E-Mail                                              0.187 (0.275)  
+phone1:campaignWomens E-Mail                                            0.388 (0.286)  
+web1:campaignMens E-Mail                                                0.227 (0.274)  
+web1:campaignWomens E-Mail                                              0.316 (0.287)  
+campaignMens E-Mail:mens1                            -0.307 (0.289)    -0.292 (0.291)  
+campaignWomens E-Mail:mens1                         -0.766** (0.313)  -0.750** (0.314) 
+campaignMens E-Mail:womens1                          -0.177 (0.286)    -0.167 (0.286)  
+campaignWomens E-Mail:womens1                       -0.855*** (0.311) -0.843*** (0.311)
+Constant                           4.854*** (0.248) 4.643*** (0.350)  4.624*** (0.354) 
+---------------------------------------------------------------------------------------
+Observations                             578               578               578       
+Log Likelihood                        -3,293.187       -3,287.393        -3,287.305    
+theta                              1.587*** (0.087) 1.614*** (0.088)  1.614*** (0.088) 
+Akaike Inf. Crit.                     6,606.373         6,620.786         6,622.610    
+=======================================================================================
+Note:                                                       *p<0.1; **p<0.05; ***p<0.01

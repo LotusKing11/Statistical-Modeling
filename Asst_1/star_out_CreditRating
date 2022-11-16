@@ -1,0 +1,64 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Mon, Feb 14, 2022 - 15:14:27
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Rating} \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ Income & 2.063$^{***}$ & 2.078$^{***}$ & 2.086$^{***}$ \\ 
+  & (0.041) & (0.040) & (0.041) \\ 
+  & & & \\ 
+ Age & 0.131$^{*}$ &  &  \\ 
+  & (0.074) &  &  \\ 
+  & & & \\ 
+ StudentYes & $-$97.955$^{***}$ & $-$98.360$^{***}$ & $-$98.001$^{***}$ \\ 
+  & (4.361) & (4.351) & (4.372) \\ 
+  & & & \\ 
+ Education & 0.081 &  &  \\ 
+  & (0.402) &  &  \\ 
+  & & & \\ 
+ Balance & 0.234$^{***}$ & 0.233$^{***}$ & 0.223$^{***}$ \\ 
+  & (0.003) & (0.003) & (0.006) \\ 
+  & & & \\ 
+ MarriedYes & 3.262 &  &  \\ 
+  & (2.584) &  &  \\ 
+  & & & \\ 
+ EthnicityCaucasian &  & $-$2.368 & $-$8.240$^{*}$ \\ 
+  &  & (3.074) & (4.647) \\ 
+  & & & \\ 
+ EthnicityHispanic &  & $-$5.522 & $-$10.654$^{**}$ \\ 
+  &  & (3.528) & (5.194) \\ 
+  & & & \\ 
+ GenderMale &  & $-$3.065 & $-$5.439 \\ 
+  &  & (2.503) & (3.782) \\ 
+  & & & \\ 
+ Balance:EthnicityCaucasian &  &  & 0.011$^{*}$ \\ 
+  &  &  & (0.007) \\ 
+  & & & \\ 
+ Balance:EthnicityHispanic &  &  & 0.010 \\ 
+  &  &  & (0.007) \\ 
+  & & & \\ 
+ Balance:GenderMale &  &  & 0.005 \\ 
+  &  &  & (0.005) \\ 
+  & & & \\ 
+ Constant & 139.454$^{***}$ & 153.552$^{***}$ & 158.603$^{***}$ \\ 
+  & (7.167) & (3.364) & (4.223) \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Observations & 400 & 400 & 400 \\ 
+R$^{2}$ & 0.974 & 0.974 & 0.975 \\ 
+Adjusted R$^{2}$ & 0.974 & 0.974 & 0.974 \\ 
+Residual Std. Error & 24.951 (df = 393) & 24.968 (df = 393) & 24.936 (df = 390) \\ 
+F Statistic & 2,491.696$^{***}$ (df = 6; 393) & 2,488.222$^{***}$ (df = 6; 393) & 1,663.521$^{***}$ (df = 9; 390) \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
